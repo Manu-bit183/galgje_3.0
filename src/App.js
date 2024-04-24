@@ -9,7 +9,7 @@ import { showNotification as show, checkWin } from './helpers/helpers';
 
 import './App.css';
 
-const words = ['application', 'programming', 'interface', 'wizard'];
+const words = ['Netherlands','Belgium','Denmark','China','Canada','Sweden','Florida','Ohio','Manchester','Qatar','Nepal','Peru','Argentina','Brazil','Chile','Congo','Colombia','Croatia','Cuba','Finland','Germany','Ghana','Greece','Iceland','Italy','India','Japan','Luxembourg','Madgascar','Mali','Mexico',];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
