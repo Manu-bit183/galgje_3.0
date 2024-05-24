@@ -9,7 +9,8 @@ import { showNotification as show, checkWin } from './helpers/helpers';
 
 import './App.css';
 
-const words = ['Netherlands','Belgium','Denmark','China','Canada','Sweden','Florida','Ohio','Manchester','Qatar','Nepal','Peru','Argentina','Brazil','Chile','Congo','Colombia','Croatia','Cuba','Finland','Germany','Ghana','Greece','Iceland','Italy','India','Japan','Luxembourg','Madgascar','Mali','Mexico',];
+
+const words = ['netherlands','belgium','denmark','china','canada','sweden','florida','ohio','manchester','qatar','nepal','peru','argentina','brazil','chile','congo','colombia','croatia','cuba','finland','germany','ghana','greece','iceland','italy','india','japan','luxembourg','madgascar','mali','mexico',];
 let selectedWord = words[Math.floor(Math.random() * words.length)];
 
 function App() {
@@ -54,7 +55,7 @@ function App() {
       const random = Math.floor(Math.random() * words.length);
       selectedWord = words[random];
     }
-  
+
     return (
       <>
         <Header />
